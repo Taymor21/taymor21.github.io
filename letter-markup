@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta name="author" content="Taymor Abou-Zaki">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Awesome science application correspondance</title>
+           </head>
+    <body>
+       <p>Hello, World, and welcome to my first website!</p>
+        <p>Thank you for visiting my website. I hope you find the content informative and engaging. Feel free to explore and reach out if you have any questions or feedback. Enjoy your stay!</p>
+    </body>
+</html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
