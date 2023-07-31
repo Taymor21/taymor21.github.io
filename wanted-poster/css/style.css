@@ -56,28 +56,37 @@ h2 {
     /* Complete the style for heading level 2 */
     font-size: 48px;
     letter-spacing: 4px;
+    margin: 0;
     color: darkred;
     font-weight: normal;
     text-align: center;
+    text-shadow: 0.09375rem 0.09375rem 0.09375rem #000;
+    font-family: 'Alfa Slab One', Garamond, serif;
 }
 
 h3 {
     /* Complete the style for heading level 3 */
     font-size: 32px;
     font-weight: normal;
+    margin: 0;
     text-align: center;
     text-shadow: none;
     color: black;
+    text-shadow: 0.09375rem 0.09375rem 0.09375rem #000;
+    font-family: 'Alfa Slab One', Garamond, serif;
 }
 
 h4 {
     /* Complete the style for heading level 4 */
     font-size: 24px;
     text-align: center;
+    margin: 0;
     color: darkred;
     letter-spacing: 4px;
     padding-bottom: 18px;
     font-weight: normal;
+    text-shadow: 0.09375rem 0.09375rem 0.09375rem #000;
+    font-family: 'Alfa Slab One', Garamond, serif;
 }
 
 h5 {
