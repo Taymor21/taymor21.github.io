@@ -72,20 +72,28 @@ header, footer {
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/montserrat.woff2') format('woff2'),
-         url('../fonts/montserrat.woff') format('woff');
+    src: url('../fonts/montserrat-regular.ttf') format('truetype'),
+         url('../fonts/montserrat-regular.woff2') format('woff2'),
+         url('../fonts/montserrat-regular.woff') format('woff');
   }
   
   @font-face {
     font-family: 'Josefinslab';
     src: url('../fonts/josefinslab.woff2') format('woff2'),
          url('../fonts/josefinslab.woff') format('woff');
-  }
-
+  }  
 
 /* Typography Styles */
+/* Typography Styles */
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+  }
+  
+  body {
+    margin: 1.5rem auto;
+    width: 90%;
+    min-width: 56.25rem;
+    font-family: 'Montserrat', sans-serif; /* Add this line to set the default font for the whole page */
   }
   
   h1, h2 {
@@ -117,7 +125,7 @@ html {
     font-size: 12px;
     margin-bottom: 32px;
   }
-
+  
 
 /* Link Styling */
 
