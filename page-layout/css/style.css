@@ -49,3 +49,117 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 
+/* Add a generic reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.article-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2, h3 {
+    margin: 15px 0;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.subsection figure {
+    margin: 10px 0;
+}
+
+.subsection img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+aside h3 {
+    margin: 15px 0;
+}
+
+aside p {
+    margin-bottom: 10px;
+}
+
+.expand {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.expand:hover {
+    color: #666;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #666;
+}
