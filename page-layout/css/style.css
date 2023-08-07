@@ -50,116 +50,104 @@
 
 
 /* Add a generic reset */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+/* Global Styles */
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     color: #333;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
 }
 
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color: #0066cc;
+}
+
+/* Header Styles */
+
 header {
+    background: #0066cc;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
+}
+
+/* Navigation Menu Styles */
+
+nav {
+    background: #fff;
+    padding: 15px 0;
     margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: space-around;
-    padding: 10px 0;
+}
+
+/* Main Section Styles */
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.main-section article {
+    flex: 70%;
+    padding-right: 20px;
+}
+
+.main-section aside {
+    flex: 30%;
+    padding-left: 20px;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
     margin-bottom: 20px;
 }
 
-nav a {
-    text-decoration: none;
-    color: #333;
-    font-size: 1.2em;
-}
-
-main {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.main-section {
+.subsection {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-column-gap: 20px;
-}
-
-.article-image img {
-    max-width: 100%;
-    height: auto;
-}
-
-h2, h3 {
-    margin: 15px 0;
-}
-
-p {
-    margin-bottom: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
 
 .subsection figure {
-    margin: 10px 0;
+    margin: 0;
 }
 
-.subsection img {
-    max-width: 100%;
-    height: auto;
-}
-
-button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-button:hover {
-    background-color: #666;
-}
-
-aside h3 {
-    margin: 15px 0;
-}
-
-aside p {
-    margin-bottom: 10px;
-}
-
-.expand {
-    display: inline-block;
-    text-decoration: none;
-    color: #333;
-    transition: color 0.3s;
-}
-
-.expand:hover {
-    color: #666;
-}
+/* Footer Styles */
 
 footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
     margin-top: 20px;
-    border-top: 1px solid #ddd;
-    padding-top: 10px;
 }
 
 footer a {
-    color: #333;
-    text-decoration: none;
+    color: #fff;
 }
 
-footer a:hover {
-    color: #666;
+footer p {
+    margin: 0;
 }
