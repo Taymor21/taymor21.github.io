@@ -68,21 +68,35 @@ header h1 {
     margin: 0;
     font-size: 2em;
 }
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+nav li a {
 
+}
 main {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    max-width: 1200px;
     margin: auto;
 }
-
-main section {
-    width: 70%;
+img{
+    width: 100%;
+    display: block;
+    max-width: 25rem;
+}
+.main-section {
+    display: flex;
 }
 
 aside {
-    width: 28%; /* little less than 30% to account for potential padding/margin issues */
+    clear: left;
+    width: 19%;
+    margin-left: 3%;
+    padding-left: 3%;
+    border-left: .0625rem solid #333;
+}
+article {
+    width: 75%;
+    
 }
 
 h2, h3 {
@@ -90,6 +104,7 @@ h2, h3 {
 }
 
 .article-image img {
+    float: left;
     width: 100%;
     height: auto;
 }
@@ -120,6 +135,7 @@ button {
     font-size: 16px;
     margin: 20px 2px;
     cursor: pointer;
+    
 }
 
 footer {
@@ -144,12 +160,4 @@ footer a {
 }
 .content {
     display: flex;
-}
-
-article {
-    flex: 70%; /* This means that the article will take up 70% of the total width */
-}
-
-aside {
-    flex: 30%; /* This means that the aside will take up 30% of the total width */
 }
