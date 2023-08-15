@@ -84,6 +84,7 @@ img{
     max-width: 25rem;
 }
 .main-section {
+    margin-left: 20px;
     display: flex;
 }
 
